@@ -1,4 +1,47 @@
-p {
-    white-space: pre;
+body {
     font-family: monospace;
+    background-color: #eee;
+}
+
+
+
+.title {
+    color: purple;
+    text-align: center;
+    background-color: #d3c4d6;
+    margin: auto auto 10px auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.content-container {
+    color: purple;
+    width: 320px;
+    padding: 10px;
+    border: 2px solid purple;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+
+
+}
+
+.form-container {
+    text-align: center;
+    background-color: #d3c4d6;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pyramid-container {
+    white-space: pre;
+    text-align: center;
+    background-color: #eee;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
 }
